@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+}
+
+.console * {
+  font-family: monospace;
+}
+
+.console {
+  width: 100vw;
+  height: 100vh;
+  background: #111;
+  flex-direction: column;
+  display: flex;
+}
+
+.console-history {
+  box-sizing: border-box;
+  flex-grow: 1;
+  padding: 24px;
+  overflow-y: auto;
+}
+
+.console-input-log, .console-output-log {
+  box-sizing: border-box;
+  padding: 6px 12px;
+}
+
+.console-input-log:hover, .console-output-log:hover {
+  background: #ffffff08;
+}
+
+.console-input-log {
+  color: #fff;
+  font-weight: bold;
+}
+
+.console-output-log {
+  color: #0fc;
+}
+
+.console-input {
+  box-sizing: border-box;
+  color: #fff;
+  background: #ffffff0d;
+  border: none;
+  border-top: 1px solid #333;
+  outline: none;
+  flex-shrink: 0;
+  padding: 12px;
+  transition: background .2s;
+}
+
+.console-input:hover, .console-input:focus {
+  background: #ffffff12;
+}
+
+/*# sourceMappingURL=index.9e4c6fd2.css.map */
